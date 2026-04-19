@@ -1,0 +1,18 @@
+{
+	"name": "supapowah-dev",
+	"description": "Marketplace",
+	"owner": {
+		"name": "Kevin Strandberg"
+	},
+	"plugins": [
+		{
+			"name": "supapowahs",
+			"description": "SUPER DUPER TDD, SUPER DUPER debugging, SUPER DUPER collaboration patterns, and SUPER DUPER proven techniques",
+			"version": "0.0.12",
+			"source": "./plugin",
+			"author": {
+				"name": "Kevin Strandberg"
+			}
+		}
+	]
+}
