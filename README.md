@@ -2,7 +2,7 @@
 
 Fork of [obra/superpowers](https://github.com/obra/superpowers) — all credit to the original author. This is a modified version optimized for use in Claude Code with my desired workflow.
 
-Best used in tandem with the following prompt appended to Claude Code's system prompt:
+Best used in tandem with the following appended to Claude Code's system prompt:
 
 | Mode | Description |
 |---|---|
