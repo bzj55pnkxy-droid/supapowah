@@ -1,14 +1,14 @@
 {
-	"name": "supapowah-dev",
+	"name": "claude-superpowers",
 	"description": "Marketplace",
 	"owner": {
 		"name": "Kevin Strandberg"
 	},
 	"plugins": [
 		{
-			"name": "supapowahs",
-			"description": "SUPER DUPER TDD, SUPER DUPER debugging, SUPER DUPER collaboration patterns, and SUPER DUPER proven techniques",
-			"version": "0.0.12",
+			"name": "claude-superpowers",
+			"description": "Core skills library for Claude Code: TDD, debugging, collaboration patterns, and proven techniques",
+			"version": "0.0.1",
 			"source": "./plugin",
 			"author": {
 				"name": "Kevin Strandberg"

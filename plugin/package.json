@@ -1,6 +1,6 @@
 {
-  "name": "superpowers",
-  "version": "5.0.7",
+  "name": "claude-superpowers",
+  "version": "0.0.1",
   "type": "module",
   "main": ".opencode/plugins/superpowers.js"
 }

@@ -50,10 +50,19 @@ Save `screen_dir` and `state_dir` from the response. Tell user to open the URL.
 **Launching the server by platform:**
 
 **Claude Code (macOS / Linux):**
-```bash
-# Default mode works — the script backgrounds the server itself
-scripts/start-server.sh --project-dir /path/to/project
+
+The script uses `OWNER_PID` to decide when to self-exit. When launched via the Bash tool, the owner resolves to the ephemeral shell that runs each tool call — so the server dies when the tool call ends, even with `run_in_background: true`.
+
+**Fix: ask the user to run the server themselves.** Give them the exact command and ask them to run it by typing `! <command>` in the Claude Code prompt (the `!` prefix runs it in their persistent shell). Ask them to paste the JSON output back.
+
 ```
+Tell the user:
+  "Please run this in the Claude Code prompt using the ! prefix:
+   ! /full/path/to/scripts/start-server.sh --project-dir /path/to/project
+   Then paste the JSON it prints here."
+```
+
+The JSON contains `screen_dir` and `state_dir` — save those and proceed. The server stays alive because it's owned by the user's shell session.
 
 **Claude Code (Windows):**
 ```bash

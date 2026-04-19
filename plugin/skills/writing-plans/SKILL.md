@@ -15,7 +15,8 @@ Assume they are a skilled developer, but know almost nothing about our toolset o
 
 **Context:** This should be run in a dedicated worktree (created by brainstorming skill).
 
-**Save plans to:** `.claude/plans/YYYY-MM-DD-<feature-name>.md`
+**Save plans to:** `specs/YYYY-MM-DD-<topic>/plan.md` (alongside the spec's `design.md`)
+- For multi-phase plans: `specs/YYYY-MM-DD-<topic>/plan-phase-N-<name>.md`
 - (User preferences for plan location override this default)
 
 ## Scope Check
@@ -135,7 +136,7 @@ If you find issues, fix them inline. No need to re-review — just fix and move 
 
 After saving the plan, offer execution choice:
 
-**"Plan complete and saved to `.claude/plans/<filename>.md`. Two execution options:**
+**"Plan complete and saved to `specs/<topic>/plan.md`. Two execution options:**
 
 **1. Subagent-Driven (recommended)** - I dispatch a fresh subagent per task, review between tasks, fast iteration
 

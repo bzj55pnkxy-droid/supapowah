@@ -1,12 +1,12 @@
 {
-	"name": "supapowah",
+	"name": "claude-superpowers",
 	"description": "Core skills library for Claude Code: TDD, debugging, collaboration patterns, and proven techniques",
-	"version": "0.0.12",
+	"version": "0.0.1",
 	"author": {
 		"name": "Kevin Strandberg"
 	},
-	"homepage": "https://github.com/obra/superpowers",
-	"repository": "https://github.com/obra/superpowers",
+	"homepage": "https://github.com/bzj55pnkxy-droid/claude-superpowers",
+	"repository": "https://github.com/bzj55pnkxy-droid/claude-superpowers",
 	"license": "MIT",
 	"keywords": [
 		"skills",
